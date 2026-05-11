@@ -15,9 +15,10 @@
    let btn = querySelector("btn1");
    let btn2 = querySelector("btn2");
 
-    btn.addEventListener("click", function(){   
+    btn.addEventListener("click", function(){ 
+        alert("Welcome to IT10");
     });
-    alert("Welcome to IT10");
+   
     btn2.addEventListener("doubleClick", function(){
         document.getElementById("parag1").style.color = "red";
         alert("change color");
