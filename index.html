@@ -11,16 +11,16 @@
     <button id="btn2">Change color</button>
 </body>
 <script>
-    getElementById("parag1");
-    querySelector("btn1");
-    querySelector("btn2");
+   let parag = getElementById("parag1");
+   let btn = querySelector("btn1");
+   let btn2 = querySelector("btn2");
 
-    document.querySelector("btn1").addEventListener("click", function(){
+    btn.addEventListener("click", function(){
         alert("Button 1 triggered");
-    })
-    document.querySelector("btn2").addEventListener("doubleClick", function(){
+    });
+    btn2.addEventListener("doubleClick", function(){
         document.getElementById("parag1").style.color = "red";
         alert("change color");
-    })
+    });
 </script>
 </html>
