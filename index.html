@@ -11,7 +11,7 @@
     <button id="btn2">Change color</button>
 </body>
 <script>
-   let parag = getElementById("#parag1");
+   let parag = getElementById("parag1");
    let btn = querySelector("#btn1");
    let btn2 = querySelector("#btn2");
 
@@ -19,8 +19,8 @@
         alert("Welcome to IT10");
     });
    
-    btn2.addEventListener("doubleClick", function(){
-        document.getElementById("parag1").style.color = "red";
+    btn2.addEventListener("dblclick", function(){
+        parag.style.color = "red";
         alert("change color");
     });
 </script>
