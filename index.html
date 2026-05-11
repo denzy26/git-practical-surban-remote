@@ -14,5 +14,13 @@
     getElementById("parag1");
     querySelector("btn1");
     querySelector("btn2");
+
+    document.querySelector("btn1").addEventListener("click", function(){
+        alert("Button 1 triggered");
+    })
+    document.querySelector("btn2").addEventListener("doubleClick", function(){
+        document.getElementById("parag1").style.color = "red";
+        alert("change color");
+    })
 </script>
 </html>
