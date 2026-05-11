@@ -5,18 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: white;">
-    <select id="colorSelect">
-        <option value="white">select color</option>
-        <option value="Red">Red</option>
-        <option value="Green">Green</option>
-    </select>
+<body>
+    <p id="parag1">This is my practical examination</p>
+    <button id="btn1">Alert me</button>
+    <button id="btn2">Change color</button>
 </body>
 <script>
-    document.getElementById("colorSelect").addEventListener("change", function(){
-        document.body.style.backgroundColor = document.getElementById("colorSelect").value;
-        document.body.style.backgroundColor = "white";
-        document.getElementById("selectColor").textContent = "You selected" + document.getElementById("colorSelect").value;
-    });
+    
 </script>
 </html>
